@@ -1,0 +1,14 @@
+.textInput-searchBar {
+  min-width: 230px;
+  max-width: 296px;
+  width: auto;
+  padding: 0 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+.textInput-searchBar:focus {
+  outline: none; /* Ensures the outline is removed on focus */
+  border: 1px solid #66afe9; /* Optional: Add a custom border color on focus */
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Optional: Add a custom shadow on focus */
+}

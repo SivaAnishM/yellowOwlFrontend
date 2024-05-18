@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  background: #e5e7eb;
+}
+
+@media (max-width: 630px) {
+  .App {
+    /* display: none; */
+  }
+}

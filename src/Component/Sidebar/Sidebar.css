@@ -1,0 +1,38 @@
+.sidebar-container {
+  width: 255px;
+  background: linear-gradient(90deg, #1e40af 0%, #9333ea 100%);
+  height: 100vh;
+}
+
+.sidebar-Innercontainer {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sidebar-adminicon {
+  height: 48px;
+  width: 48px;
+  border-radius: 30px;
+  background: #dddddd;
+}
+
+.sidebar-adminName {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.sidebar-adminStatus {
+  font-size: 14px;
+  color: #bfdbfe;
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar-container {
+    display: none;
+  }
+}
